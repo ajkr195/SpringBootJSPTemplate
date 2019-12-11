@@ -13,6 +13,13 @@ input.form-control {
 	height: 25px !important;
 }
 
+.fat-font {
+	color: #888888;
+	text-shadow: 1px 0 #888888;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+
 span.error {
 	color: red;
 	margin-left: 5px;
@@ -87,8 +94,8 @@ span.error {
 
 .dropdown-menu>a:hover {
 	/* 	background-color: #33BEFF; #5cb85c */
-	/* 	background-color: #F3F694  #90EE90 */
-	background-color: #b3ff99;
+	/* 	background-color: #F3F694  #90EE90  #b3ff99 */
+	background-color: #33BEFF;
 	text-decoration: none;
 }
 

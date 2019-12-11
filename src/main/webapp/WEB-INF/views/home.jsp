@@ -7,17 +7,17 @@
 <head>
 <title>SpringBootRocks</title>
 <%@ include file="../fragments/header.jspf"%>
-
+<%@ include file="../fragments/navbar.jspf"%>
 </head>
 <body>
 	<div class="container">
 		<div style="text-align: center">
 			<div class="alert alert-success">
-				<strong>Success!</strong> Webjars are working as we expected.
+				<h4><strong>Success!</strong> Webjars are working as we expected.</h4>
 			</div>
 			<h1>Welcome to Home</h1>
 			<img id="img" src="/img/casemgmt.jpg"
-				style='height: 10%; width: 80%; object-fit: contain' />
+				style='height: 50%; width: 50%;' />
 		</div>
 
 	</div>

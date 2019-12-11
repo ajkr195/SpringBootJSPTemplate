@@ -1,0 +1,145 @@
+body {
+	margin-top: 30px;
+	margin-bottom: 40px;
+	padding-top: 20px;
+}
+
+.form-group {
+	margin-bottom: 6px;
+	margin-top: 6px;
+}
+
+input.form-control {
+	height: 25px !important;
+}
+
+span.error {
+	color: red;
+	margin-left: 5px;
+	font-size: 12px;
+}
+
+/* datatable paging size changed*/
+.dataTables_paginate>span>a {
+	margin-bottom: 0px !important;
+	padding: 1px 5px !important;
+}
+
+/* datatable paging size changed*/
+.dataTables_paginate>a {
+	margin-bottom: 0px !important;
+	padding: 1px 5px !important;
+}
+
+.fade2 {
+	transform: scale(0.9);
+	opacity: 0;
+	transition: all .2s linear;
+	display: block !important;
+}
+
+.fade2.show {
+	opacity: 1;
+	transform: scale(1);
+}
+
+.btn-super-large {
+	width: 200px;
+	height: 200px;
+}
+
+.btn-space {
+	margin-right: 5px;
+}
+
+/* .btn-sm { */
+/* 	border-radius: 0px; */
+/* 	-webkit-border-radius: 0px; */
+/* 	-moz-border-radius: 0px; */
+/* } */
+.btn-rounded {
+	border-radius: 50%;
+	box-shadow: none;
+}
+
+.jumbotron {
+	border-style: solid;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	background-color: transparent !important;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 25px; */
+	line-height: 20px;
+	background-color: #f5f5f5;
+}
+
+.control-label {
+	padding-top: 4px;
+}
+
+.dropdown-menu>a:hover {
+	/* 	background-color: #33BEFF; #5cb85c */
+	/* 	background-color: #F3F694  #90EE90 */
+	background-color: #b3ff99;
+	text-decoration: none;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+	/* 	background-color: #33BEFF; */
+	/* 		background-color: #F3F694 */
+	/* 	background-color: #b3ff99; */
+	/* 	padding: 10px; */
+	/* 	font-size: 18px; */
+	font-weight: bold;
+}
+
+.table_morecondensed>thead>tr>th, .table_morecondensed>tbody>tr>th,
+	.table_morecondensed>tfoot>tr>th, .table_morecondensed>thead>tr>td,
+	.table_morecondensed>tbody>tr>td, .table_morecondensed>tfoot>tr>td {
+	padding: 3px;
+}
+
+th {
+	background-color: gray;
+	color: white;
+}
+
+.pagination-centered {
+	text-align: center;
+}
+
+.disabled {
+	pointer-events: none;
+	opacity: 0.5;
+}
+
+.pointer-disabled {
+	pointer-events: none;
+}
+
+.dropdown-thin a {
+	height: 25px;
+	padding-top: 2px;
+}
+
+.modal-header {
+	padding: 1px 1px;
+	border-bottom: 2px solid gray;
+	background-color: lightgray;
+}
+
+.rotated {
+	transform: rotate(360deg);
+	-ms-transform: rotate(360deg); /* IE 9 */
+	-moz-transform: rotate(360deg); /* Firefox */
+	-webkit-transform: rotate(360deg); /* Safari and Chrome */
+	-o-transform: rotate(360deg); /* Opera */
+}

@@ -1,4 +1,4 @@
-package com.springboot.is.rocking;
+package com.springboot.is.rocking.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
